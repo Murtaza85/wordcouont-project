@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h4 style="float:right"><a href="{% url 'about' %}">About Us </a></h4>
+    <form action="{% url 'count' %}">
+        <h1>WORD COUNT</h1>
+        <textarea cols="40" rows="10" name="fulltext"></textarea>
+        <BR>
+        <input type="submit" value="Count!" />
+
+    </form>
+</body>
+</html>
